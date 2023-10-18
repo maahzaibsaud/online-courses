@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+                    /* STYLING HEADER */
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(image/image11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+                      /* STYLING  TOP PART */
+.top{
+    display: flex;
+    width: 1550px;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgray;
+    
+}
+.top h4{
+    margin-left: 30px;
+}
+.top p{
+    margin-right: 50px;
+}
+.top p a{
+    text-decoration: none;
+}
+
+
+/* STYLING NAV BAR */
+nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+background-color:white;
+justify-content: space-between;
+align-items: center;
+text-transform: uppercase;
+color: black;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+/* STYLING LOGO */
+.logo1 {
+    width: 15%;
+    text-align: center;
+    background-color:white;
+}
+
+
+/* SETTING LOGO IMAGE */
+.logo1 img {
+    width: 30%;
+    text-align: center;
+    
+
+}
+
+nav .menu{
+    width: 50%;
+}
+
+
+/* STYLING NAV UL */
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+nav .menu ul{
+    color: red;
+    text-decoration: none;
+}
+
+
+/* BUTTON STYLING */
+.btn button{
+    border-radius: 100px;
+    color: black;
+    background-color: orange;
+    width: 130px;
+    height: 40px;
+    box-shadow: 2px 2px 2px red;
+    font-size: 12px; 
+}
+
+
+/* BUTTON HOVER STYLING */
+.btn button:hover{
+background-color: chartreuse;
+}
+
+
+/* CONTENT SETTING AND STYLING */
+.content{
+    width: 100%;
+    height: 50vh;
+    margin-top: 280px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(20, 220, 83);
+}
+
+
+/* CONTENT BUTTON STYLING */
+.content button{
+    border-radius: 30px;
+    background-color: aquamarine;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+}
+.content button:hover{
+background-color: crimson;
+}
+
+
+
+/* CALL INTRODUCTION */
+.intro{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration-line: underline;
+}
+
+
+/* CALL COURSES */
+.courses-offer1 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin-left:  80px;
+    margin-top: 40px;    
+}
+
+
+
+/* START IMAGES SETTING AND STYLING */
+.course1 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 70px;
+    border-radius: 20px;
+
+    
+}
+.course2 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 70px;
+    border-radius: 20px;
+}
+.course3 img {
+    width: 400px;
+    height: 250px;
+    margin-right: 70px;
+    border-radius: 20px;
+}
+
+.courses-offer2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin-left:  80px;
+    margin-top: 80px;
+    
+
+}
+.course4 img{
+        width: 400px;
+        height: 250px;
+        margin-right: 70px;
+        border-radius: 20px;
+}
+.course5 img{
+        width: 400px;
+        height: 250px;
+        margin-right: 70px;
+        border-radius: 20px;
+}
+.course6 img{
+        width: 400px;
+        height: 250px;
+        margin-right: 70px;
+        border-radius: 20px;
+}
+.courses-offer3 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin-left:  80px;
+    margin-top: 80px;
+
+}
+.course7 img{
+        width: 400px;
+        height: 250px;
+        margin-right: 70px;
+        border-radius: 20px;
+}
+.course8 img{
+        width: 400px;
+        height: 250px;
+        margin-right: 70px;
+        border-radius: 20px;
+}
+.course9 img{
+        width: 400px;
+        height: 250px;
+        margin-right: 70px;
+        border-radius: 20px;
+}
+
+
+/* STYLING FOOTER */
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1{
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+
+}
+
+.footer div h3{
+    font-weight: 300;
+
+    
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+form input{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.col-3{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+}
+
+                                      
+                                       /* THE END */
+   
+
+
